@@ -1,19 +1,24 @@
-#header{
+#header {
     height: 300px;
     background-color: #fc0;
 }
 
-#main{
+#main {
+    float: left;
+    width: 50%;
     height: 200px;
     background-color: #cf0;
 }
 
-#sub{
+#sub {
+    float: right;
+    width: 50%;
     height: 100px;
     background-color: #0fc;
 }
 
 #footer {
-	height: 300px;
+    clear: both;
+    height: 300px;
     background-color: #fc9;
 }
